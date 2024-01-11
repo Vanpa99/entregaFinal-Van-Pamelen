@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bakery</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+    <body class="body-contacto">  
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" 
+                        href="../index.html">
+                        <img src="../img/Logo.jpg" 
+                            alt="Bakery Logo"
+                            class="logo"
+                            width="200px">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                         <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="../pages/quienes-somos.html">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/que-hacemos.html">Que Hacemos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contactate.html">Contactate</a>
+                        </li>
+                       
+                        </ul>
+                    </div>
+                </div>
+              </nav>
+        </header>
+
+        <main class="main-contacto" id="contacto">
+                <form class="form">
+                    <h2 class="h2-cont">Contactate Con Nosotros</h2>
+                    <p class="p-cont">Hace tu pedido</p>
+                    <div class="form-group">
+                        <label 
+                            for="name"
+                            id="name-label">
+                            Nombre
+                        </label>
+                        <input 
+                            type="text"
+                            id="name"
+                            name="name"
+                            class="form-control"
+                            placeholder="Inserte su nombre"
+                            required/>
+                    </div>
+
+                    <div class="form-group">
+                        <label
+                            for="number"
+                            id="number-label">
+                            Telefono
+                        </label>
+                        <input
+                            class="form-control"
+                            type="number"
+                            id="number"
+                            name="number"
+                            placeholder="Numero Telefonico"
+                            required/>
+                    </div>
+                
+                    <div class="form-group">
+                        <label 
+                            for="email"
+                            id="email-label">
+                            Email
+                        </label>
+                        <input 
+                            class="form-control"
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Inserte su Email"
+                            required/>
+                    </div>
+
+                    <div class="form-group">
+                            <p class="block">¡Hace tu pedido!</p>
+                        <textarea 
+                            id="pedido"
+                            name="pedido"
+                            class="input-textarea"
+                            placeholder="Escriba su pedido">   
+                        </textarea>
+                    </div>
+
+                    <div class="form-group submit">
+                        <button 
+                            type="submit"
+                            id="submit"
+                            class="submit-button">
+                            Enviar
+                        </button>
+                    </div>
+                </form>
+            </form>
+
+        </main>
+
+        <footer class="footer">
+            <p class="p-footer">Copyright © 2023  |   Aviso legal</p>
+            <div class="logo-footer">
+                <a href="../index.html">
+                    <img src="../img/Logo.jpg" 
+                        alt="Logo de la empresa"
+                        class="logo">
+                </a>
+            </div>
+            <p class="p-footer">Sitio web creado por <a href="https://www.instagram.com/mativanpa/?next=%2F&hl=es-la">Matias Van Pamelen</a></p>
+        </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
