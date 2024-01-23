@@ -14,7 +14,7 @@ body {
     margin-bottom: 60px;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100vh;
 }
   
 .navbar{
@@ -58,7 +58,6 @@ p{
 
     /* INICIO */
 .body-inicio{
-    height: 100vh;
     background-image: url(../img/fondo-inicio.jpg);
     background-size: cover; 
     margin-top: 60px;
@@ -216,7 +215,7 @@ p{
 }
 
 .main-productos{
-    height: 100vh;
+    min-height: 100vh;
 }
 .card{
     width: 18rem;
@@ -238,7 +237,7 @@ p{
 
 /* CONTACTO */
 .body-contacto{
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(../img/fondo-contacto.webp);
     background-size: cover; 
     background-position: center;

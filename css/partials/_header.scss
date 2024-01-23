@@ -1,0 +1,46 @@
+
+.navbar{
+    padding: 0;
+    
+    .container-fluid{
+        background-color: rgb(118, 52, 26);
+    
+        .navbar-brand{
+            padding-bottom: 0;
+        
+            .logo{
+                width: 200px;
+                height: auto;
+            }
+        }
+    
+        .navbar-collapse{
+            justify-content: flex-end;
+
+            .navbar-nav{
+                text-align: center; 
+            
+                .nav-link{
+                    color: rgb(250, 163, 47);  
+                    font-weight: 500;
+
+                    &:hover{
+                        text-decoration: underline;
+                        color: rgb(250, 163, 47);  
+                    }
+                }
+
+                 
+            }
+        }    
+    }
+}
+
+
+
+
+
+
+
+
+
