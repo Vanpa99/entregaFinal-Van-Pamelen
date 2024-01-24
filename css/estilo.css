@@ -172,6 +172,42 @@ body {
   border-radius: 5px;
 }
 
+.body-contacto {
+  min-height: 100vh;
+  background-image: url(../img/fondo-contacto.webp);
+  background-size: cover;
+  background-position: center;
+  margin-top: 60px;
+}
+.body-contacto .main-contacto .form {
+  padding: 2.5rem;
+  border: solid black;
+  margin-inline: 5rem;
+  background-color: rgba(255, 255, 255, 0.573);
+  margin-top: 60px;
+}
+.body-contacto .main-contacto .form .h2-cont, .body-contacto .main-contacto .form .p-cont {
+  text-align: center;
+}
+.body-contacto .main-contacto .form .p-cont {
+  font-style: italic;
+}
+.body-contacto .main-contacto .form .form-group {
+  margin: 0px 0px 20px;
+  padding: 4px;
+}
+.body-contacto .main-contacto .form .form-group > label, .body-contacto .main-contacto .form .form-group p {
+  padding-left: 0.5rem;
+}
+.body-contacto .main-contacto .form .form-group .input-textarea {
+  min-width: 100%;
+  padding: 0.5rem;
+}
+.body-contacto .main-contacto .form .submit {
+  display: flex;
+  justify-content: center;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -209,7 +245,7 @@ body {
   .footer .p-footer {
     display: none;
   }
-  .main-contacto .form {
+  .body-contacto .main-contacto .form {
     margin-inline: 1rem;
   }
   .main-quienes-somos .quienes-somos1 {
@@ -230,50 +266,4 @@ body {
 /* QUIENES SOMOS */
 /* QUE HACEMOS */
 /* PRODUCTOS */
-/* CONTACTO */
-.body-contacto {
-  min-height: 100vh;
-  background-image: url(../img/fondo-contacto.webp);
-  background-size: cover;
-  background-position: center;
-  margin-top: 60px;
-}
-
-.h2-cont, .p-cont {
-  text-align: center;
-}
-
-.p-cont {
-  font-style: italic;
-}
-
-.form {
-  padding: 2.5rem;
-  border: solid black;
-  margin-inline: 5rem;
-  background-color: rgba(255, 255, 255, 0.573);
-  margin-top: 60px;
-}
-
-.form-group {
-  margin: 0px 0px 20px;
-  padding: 4px;
-}
-
-.form-group > label, p {
-  padding-left: 0.5rem;
-}
-
-.p-block {
-  display: block;
-}
-
-.submit {
-  display: flex;
-  justify-content: center;
-}
-
-.input-textarea {
-  min-width: 100%;
-  padding: 0.5rem;
-}/*# sourceMappingURL=estilo.css.map */
+/* CONTACTO *//*# sourceMappingURL=estilo.css.map */

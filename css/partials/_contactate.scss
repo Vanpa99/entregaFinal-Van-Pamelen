@@ -1,0 +1,46 @@
+.body-contacto{
+    min-height: 100vh;
+    background-image: url(../img/fondo-contacto.webp);
+    background-size: cover; 
+    background-position: center;
+    margin-top: 60px;
+
+    .main-contacto{
+        .form{
+            padding: 2.5rem;
+            border: solid black;
+            margin-inline: 5rem;
+            background-color: rgba(255, 255, 255, 0.573);
+            margin-top: 60px;
+
+            .h2-cont, .p-cont{
+                text-align: center;
+            }
+
+            .p-cont{
+                font-style: italic;
+            }
+
+            .form-group{
+                margin: 0px 0px 20px;
+                padding: 4px;
+
+                > label, p{
+                    padding-left: 0.5rem;
+                }
+
+                .input-textarea{
+                    min-width: 100%;
+                    padding: 0.5rem;
+                }
+
+                
+            }
+
+            .submit{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
