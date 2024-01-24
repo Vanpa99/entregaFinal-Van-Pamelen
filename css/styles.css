@@ -202,7 +202,7 @@ p{
 } */
 
     /* PRODUCTOS */
-.body-productos{
+/* .body-productos{
     height: 100vh;
     background-image: url(../img/productos.jpg);
     background-size: cover; 
@@ -212,24 +212,24 @@ p{
 
 .main-productos{
     min-height: 100vh;
-}
-.card{
+} */
+/* .card{
     width: 18rem;
     background-color: rgba(255, 255, 255, 0.573);
-}
+} */
 
-.row{
+/* .row{
     gap: 2rem;
     justify-content: center;
-}
+} */
 
-.container{
+/* .container{
     margin-top: 2rem;
-}
+} */
 
-.card-img-top{
+/* .card-img-top{
     border-radius: 5px;
-}
+} */
 
 /* CONTACTO */
 .body-contacto{

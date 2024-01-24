@@ -1,0 +1,29 @@
+.body-productos{
+    height: 100vh;
+    background-image: url(../img/productos.jpg);
+    background-size: cover; 
+    background-position: center;
+    margin-top: 60px;
+
+    .main-productos{
+        min-height: 100vh;
+
+        .container{
+            margin-top: 2rem;
+
+            .row{
+                gap: 2rem;
+                justify-content: center;
+
+                .card{
+                    width: 18rem;
+                    background-color: rgba(255, 255, 255, 0.573);
+
+                    .card-img-top{
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

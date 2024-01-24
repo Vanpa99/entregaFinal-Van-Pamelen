@@ -4,6 +4,7 @@
 @import "./partials/inicio";
 @import "./partials/quienes-somos";
 @import "./partials/que-hacemos";
+@import "./partials/productos";
 @import "./partials/footer";
 @import "./partials/media-queries";
 
@@ -12,39 +13,11 @@
 
         /* INICIO */
         
-        
-            /* QUIENES SOMOS */
+        /* QUIENES SOMOS */
        
         /* QUE HACEMOS */
-            /* PRODUCTOS */
-        .body-productos{
-            height: 100vh;
-            background-image: url(../img/productos.jpg);
-            background-size: cover; 
-            background-position: center;
-            margin-top: 60px;
-        }
-        
-        .main-productos{
-            min-height: 100vh;
-        }
-        .card{
-            width: 18rem;
-            background-color: rgba(255, 255, 255, 0.573);
-        }
-        
-        .row{
-            gap: 2rem;
-            justify-content: center;
-        }
-        
-        .container{
-            margin-top: 2rem;
-        }
-        
-        .card-img-top{
-            border-radius: 5px;
-        }
+
+        /* PRODUCTOS */
         
         /* CONTACTO */
         .body-contacto{

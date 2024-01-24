@@ -147,6 +147,31 @@ body {
   text-decoration: underline;
 }
 
+.body-productos {
+  height: 100vh;
+  background-image: url(../img/productos.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 60px;
+}
+.body-productos .main-productos {
+  min-height: 100vh;
+}
+.body-productos .main-productos .container {
+  margin-top: 2rem;
+}
+.body-productos .main-productos .container .row {
+  gap: 2rem;
+  justify-content: center;
+}
+.body-productos .main-productos .container .row .card {
+  width: 18rem;
+  background-color: rgba(255, 255, 255, 0.573);
+}
+.body-productos .main-productos .container .row .card .card-img-top {
+  border-radius: 5px;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -205,36 +230,6 @@ body {
 /* QUIENES SOMOS */
 /* QUE HACEMOS */
 /* PRODUCTOS */
-.body-productos {
-  height: 100vh;
-  background-image: url(../img/productos.jpg);
-  background-size: cover;
-  background-position: center;
-  margin-top: 60px;
-}
-
-.main-productos {
-  min-height: 100vh;
-}
-
-.card {
-  width: 18rem;
-  background-color: rgba(255, 255, 255, 0.573);
-}
-
-.row {
-  gap: 2rem;
-  justify-content: center;
-}
-
-.container {
-  margin-top: 2rem;
-}
-
-.card-img-top {
-  border-radius: 5px;
-}
-
 /* CONTACTO */
 .body-contacto {
   min-height: 100vh;
