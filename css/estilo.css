@@ -122,6 +122,31 @@ body {
   width: 100%;
 }
 
+.body-que-hacemos {
+  height: 100vh;
+  background-image: url(../img/que-hacemos.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 60px;
+}
+.body-que-hacemos .main-que-hacemos .que-hacemos-texto {
+  background-color: rgba(255, 255, 255, 0.573);
+  padding: 2rem;
+  margin: 2rem;
+  margin-inline: 2rem;
+  font-size: 1.2rem;
+}
+.body-que-hacemos .main-que-hacemos .que-hacemos-texto > h2 {
+  font-weight: 600;
+}
+.body-que-hacemos .main-que-hacemos .que-hacemos-texto a {
+  text-decoration: none;
+  color: inherit;
+}
+.body-que-hacemos .main-que-hacemos .que-hacemos-texto a:hover {
+  text-decoration: underline;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -179,35 +204,6 @@ body {
 /* INICIO */
 /* QUIENES SOMOS */
 /* QUE HACEMOS */
-.body-que-hacemos {
-  height: 100vh;
-  background-image: url(../img/que-hacemos.jpg);
-  background-size: cover;
-  background-position: center;
-  margin-top: 60px;
-}
-
-.que-hacemos-texto {
-  background-color: rgba(255, 255, 255, 0.573);
-  padding: 2rem;
-  margin: 2rem;
-  margin-inline: 2rem;
-  font-size: 1.2rem;
-}
-
-.que-hacemos-texto > h2 {
-  font-weight: 600;
-}
-
-.que-hacemos-texto a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.que-hacemos-texto a:hover {
-  text-decoration: underline;
-}
-
 /* PRODUCTOS */
 .body-productos {
   height: 100vh;

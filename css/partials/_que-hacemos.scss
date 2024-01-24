@@ -1,0 +1,30 @@
+.body-que-hacemos{
+    height: 100vh;
+    background-image: url(../img/que-hacemos.jpg);
+    background-size: cover; 
+    background-position: center;
+    margin-top: 60px;
+
+    .main-que-hacemos{
+        .que-hacemos-texto{
+            background-color: rgba(255, 255, 255, 0.573);
+            padding: 2rem;
+            margin: 2rem;
+            margin-inline: 2rem;
+            font-size: 1.2rem;
+
+            > h2{
+                font-weight: 600;
+            }
+
+            a{
+                text-decoration: none;
+                color: inherit;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

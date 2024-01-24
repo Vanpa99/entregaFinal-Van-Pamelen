@@ -160,34 +160,34 @@ p{
 } */
 
 /* QUE HACEMOS */
-.body-que-hacemos{
+/* .body-que-hacemos{
     height: 100vh;
     background-image: url(../img/que-hacemos.jpg);
     background-size: cover; 
     background-position: center;
     margin-top: 60px;
-}
+} */
 
-.que-hacemos-texto{
+/* .que-hacemos-texto{
     background-color: rgba(255, 255, 255, 0.573);
     padding: 2rem;
     margin: 2rem;
     margin-inline: 20rem;
     font-size: 1.2rem;
-}
+} */
 
-.que-hacemos-texto > h2{
+/* .que-hacemos-texto > h2{
     font-weight: 600;
-}
+} */
 
-.que-hacemos-texto  a{
+/* .que-hacemos-texto  a{
     text-decoration: none;
     color: inherit;
-}
+} */
 
-.que-hacemos-texto  a:hover{
+/* .que-hacemos-texto  a:hover{
     text-decoration: underline;
-}
+} */
 
 /* @media screen and (max-width: 1024px) {
     .que-hacemos-texto{
