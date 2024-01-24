@@ -101,21 +101,21 @@ p{
 
 
     /* QUIENES SOMOS */
-.body-quienes-somos{
+/* .body-quienes-somos{
     height: 100vh;
     background-image: url(../img/fondo-quienes-somos.jpg);
     margin-top: 60px;
     background-size: cover; 
     background-position: center;
-}
+} */
 
-.main-quienes-somos{
+/* .main-quienes-somos{
     height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 3rem;
-}
+} */
 
 /* @media screen and (max-width: 992px) {
     .quienes-somos1 > .div-text{
@@ -126,15 +126,15 @@ p{
     }    
 } */
 
-.quienes-somos1 {
+/* .quienes-somos1 {
     display: flex;
     background-color: rgba(255, 255, 255, 0.573);
     padding: 2rem;
     margin-inline: 3rem;
     gap: 2rem;
-}
+} */
 
-.quienes-somos1 > .div-img{
+/* .quienes-somos1 > .div-img{
     flex: 1;
 }
 
@@ -144,9 +144,9 @@ p{
 
 .quienes-somos1 > .div-text{
     flex: 2;
-}
+} */
 
-.div-text{
+/* .div-text{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -157,7 +157,7 @@ p{
 
 .div-text > h2{
     padding-left: 1rem;
-}
+} */
 
 /* QUE HACEMOS */
 .body-que-hacemos{

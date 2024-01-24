@@ -46,6 +46,82 @@ body {
   color: rgb(250, 163, 47);
 }
 
+.body-inicio {
+  background-image: url(../img/fondo-inicio.jpg);
+  background-size: cover;
+  margin-top: 60px;
+}
+.body-inicio .main-inicio {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.body-inicio .main-inicio .zona-cartel .cartel {
+  width: 300px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.418);
+  border: solid rgba(0, 0, 0, 0.527);
+  border-radius: 10px;
+  margin: 1rem auto;
+}
+.body-inicio .main-inicio .zona-cartel .cartel-direccion {
+  width: 300px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.418);
+  border: solid rgba(0, 0, 0, 0.527);
+  border-radius: 10px;
+  margin: auto;
+}
+.body-inicio .main-inicio .zona-cartel .cartel-direccion .boton {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.body-quienes-somos {
+  height: 100vh;
+  background-image: url(../img/fondo-quienes-somos.jpg);
+  margin-top: 60px;
+  background-size: cover;
+  background-position: center;
+}
+.body-quienes-somos .main-quienes-somos {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+.body-quienes-somos .main-quienes-somos .quienes-somos1 {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.573);
+  padding: 2rem;
+  margin-inline: 3rem;
+  gap: 2rem;
+}
+.body-quienes-somos .main-quienes-somos .quienes-somos1 > .div-text {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+.body-quienes-somos .main-quienes-somos .quienes-somos1 > .div-text > h2 {
+  padding-left: 1rem;
+}
+.body-quienes-somos .main-quienes-somos .quienes-somos1 > .div-img {
+  flex: 1;
+}
+.body-quienes-somos .main-quienes-somos .quienes-somos1 > .div-img .quienes-somos-img1 {
+  width: 100%;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -101,96 +177,7 @@ body {
 }
 /*GENERAL*/
 /* INICIO */
-.body-inicio {
-  background-image: url(../img/fondo-inicio.jpg);
-  background-size: cover;
-  margin-top: 60px;
-}
-
-.main-inicio {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.cartel {
-  width: 300px;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.418);
-  border: solid rgba(0, 0, 0, 0.527);
-  border-radius: 10px;
-  margin: 1rem auto;
-}
-
-.cartel-direccion {
-  width: 300px;
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.418);
-  border: solid rgba(0, 0, 0, 0.527);
-  border-radius: 10px;
-  margin: auto;
-}
-
-.boton {
-  display: inline-block;
-  padding: 8px 16px;
-  margin-top: 10px;
-  background-color: #4CAF50;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
 /* QUIENES SOMOS */
-.body-quienes-somos {
-  height: 100vh;
-  background-image: url(../img/fondo-quienes-somos.jpg);
-  margin-top: 60px;
-  background-size: cover;
-  background-position: center;
-}
-
-.main-quienes-somos {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 3rem;
-}
-
-.quienes-somos1 {
-  display: flex;
-  background-color: rgba(255, 255, 255, 0.573);
-  padding: 2rem;
-  margin-inline: 3rem;
-  gap: 2rem;
-}
-
-.quienes-somos1 > .div-img {
-  flex: 1;
-}
-
-.quienes-somos-img1 {
-  width: 100%;
-}
-
-.quienes-somos1 > .div-text {
-  flex: 2;
-}
-
-.div-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 1rem;
-  gap: 0.5rem;
-}
-
-.div-text > h2 {
-  padding-left: 1rem;
-}
-
 /* QUE HACEMOS */
 .body-que-hacemos {
   height: 100vh;
