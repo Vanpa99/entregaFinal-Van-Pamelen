@@ -1,0 +1,46 @@
+
+
+@media screen and (max-width: 992px) {
+    .quienes-somos1 > .div-text{
+        flex: 1;
+    }
+    .div-img{
+        display: none;
+    }    
+}
+
+@media screen and (max-width: 670px) {
+    .footer{
+        justify-content: center;
+
+        .p-footer {
+            display: none;
+        }
+    }
+    .main-contacto{
+        .form{
+            margin-inline: 1rem;
+        }
+    }
+    .main-quienes-somos{
+        .quienes-somos1{
+            margin-inline: 1rem;
+            padding-inline: 1rem;
+        }
+    }
+    .main-que-hacemos{
+        .que-hacemos-texto{
+            margin-inline: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .main-que-hacemos{
+        .que-hacemos-texto{
+            .p-que-hacemos{
+                display: none;
+            }
+        }
+    }
+}

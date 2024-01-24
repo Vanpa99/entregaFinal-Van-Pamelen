@@ -1,6 +1,6 @@
         /*GENERAL*/
 
- @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ /* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 *{
     margin: 0;
@@ -54,23 +54,23 @@ body {
 
 p{
     margin: 0;
-}
+} */
 
     /* INICIO */
-.body-inicio{
+/* .body-inicio{
     background-image: url(../img/fondo-inicio.jpg);
     background-size: cover; 
     margin-top: 60px;
-}
+} */
 
-.main-inicio{
+/* .main-inicio{
     height: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
+} */
 
-.cartel{
+/* .cartel{
     width: 300px;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.418);
@@ -78,18 +78,18 @@ p{
     border-radius: 10px;
     margin: 1rem auto;
 
-}
+} */
 
-.cartel-direccion {
+/* .cartel-direccion {
     width: 300px;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.418);
     border: solid rgba(0, 0, 0, 0.527);
     border-radius: 10px;
     margin: auto;
-}
+} */
 
-.boton {
+/* .boton {
     display: inline-block;
     padding: 8px 16px;
     margin-top: 10px;
@@ -97,7 +97,7 @@ p{
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-}
+} */
 
 
     /* QUIENES SOMOS */
@@ -117,14 +117,14 @@ p{
     gap: 3rem;
 }
 
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
     .quienes-somos1 > .div-text{
         flex: 1;
     }
     .div-img{
         display: none;
     }    
-}
+} */
 
 .quienes-somos1 {
     display: flex;
@@ -152,10 +152,6 @@ p{
     justify-content: center;
     padding: 1rem;
     gap: 0.5rem;
-}
-
-@media screen and (max-width: 375) {
-
 }
 
 
@@ -193,7 +189,7 @@ p{
     text-decoration: underline;
 }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     .que-hacemos-texto{
     margin-inline: 2rem;
     }
@@ -203,7 +199,7 @@ p{
     .p-que-hacemos{
         display: none;
     }
-}
+} */
 
     /* PRODUCTOS */
 .body-productos{
@@ -285,7 +281,7 @@ p{
 }
 
     /* FOOTER */
-.footer{
+/* .footer{
     display: flex;
     justify-content: space-between;
     background-color: rgb(118, 52, 26);
@@ -302,9 +298,9 @@ p{
     font-style: italic;
     font-size: 0.8rem;
     padding-inline: 1rem;
-}
+} */
 
-@media screen and (max-width: 670px) {
+/* @media screen and (max-width: 670px) {
     .p-footer {
       display: none;
     }
@@ -318,4 +314,4 @@ p{
         margin-inline: 1rem;
         padding-inline: 1rem;
     }
-}
+} */

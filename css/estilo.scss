@@ -1,108 +1,14 @@
 @import "./partials/variables";
 @import "./partials/reset";
 @import "./partials/header";
+@import "./partials/inicio"; 
 @import "./partials/footer";
+@import "./partials/media-queries";
+
 
         /*GENERAL*/
 
-        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Roboto', sans-serif;
-        }
-        
-        body {
-            margin-top: 60px;
-            margin-bottom: 60px;
-            display: flex;
-            flex-direction: column;
-            height: 100vh;
-        }
-          
-        .navbar{
-            padding: 0;
-        }
-        
-        .navbar-nav{
-            text-align: center;    
-        }
-        
-        .nav-link{
-            color: rgb(250, 163, 47);  
-            font-weight: 500;
-        }
-        
-        .nav-link:hover{
-            text-decoration: underline;
-            color: rgb(250, 163, 47);  
-        }
-        
-        .container-fluid{
-            background-color: rgb(118, 52, 26);
-        }
-        
-        .navbar-brand{
-            padding-bottom: 0;
-        }
-        
-        .navbar-collapse{
-            justify-content: flex-end;
-        }
-        
-        .logo{
-            width: 200px;
-            height: auto;
-        }
-        
-        p{
-            margin: 0;
-        }
-        
-            /* INICIO */
-        .body-inicio{
-            background-image: url(../img/fondo-inicio.jpg);
-            background-size: cover; 
-            margin-top: 60px;
-        }
-        
-        .main-inicio{
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-        }
-        
-        .cartel{
-            width: 300px;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.418);
-            border: solid rgba(0, 0, 0, 0.527);
-            border-radius: 10px;
-            margin: 1rem auto;
-        
-        }
-        
-        .cartel-direccion {
-            width: 300px;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.418);
-            border: solid rgba(0, 0, 0, 0.527);
-            border-radius: 10px;
-            margin: auto;
-        }
-        
-        .boton {
-            display: inline-block;
-            padding: 8px 16px;
-            margin-top: 10px;
-            background-color: #4CAF50;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-        }
+        /* INICIO */
         
         
             /* QUIENES SOMOS */
@@ -122,14 +28,6 @@
             gap: 3rem;
         }
         
-        @media screen and (max-width: 992px) {
-            .quienes-somos1 > .div-text{
-                flex: 1;
-            }
-            .div-img{
-                display: none;
-            }    
-        }
         
         .quienes-somos1 {
             display: flex;
@@ -159,11 +57,6 @@
             gap: 0.5rem;
         }
         
-        @media screen and (max-width: 375) {
-        
-        }
-        
-        
         .div-text > h2{
             padding-left: 1rem;
         }
@@ -181,7 +74,7 @@
             background-color: rgba(255, 255, 255, 0.573);
             padding: 2rem;
             margin: 2rem;
-            margin-inline: 20rem;
+            margin-inline: 2rem;
             font-size: 1.2rem;
         }
         
@@ -198,17 +91,6 @@
             text-decoration: underline;
         }
         
-        @media screen and (max-width: 1024px) {
-            .que-hacemos-texto{
-            margin-inline: 2rem;
-            }
-        }
-        
-        @media screen and (max-width: 425px) {
-            .p-que-hacemos{
-                display: none;
-            }
-        }
         
             /* PRODUCTOS */
         .body-productos{
@@ -289,38 +171,3 @@
             padding: 0.5rem;
         }
         
-            /* FOOTER */
-        .footer{
-            display: flex;
-            justify-content: space-between;
-            background-color: rgb(118, 52, 26);
-            width: 100%;
-            margin-top: auto;
-            position: fixed;
-            bottom: 0;
-        }
-        
-        .p-footer{
-            display: flex;
-            align-items: center;
-            color: rgb(250, 163, 47);
-            font-style: italic;
-            font-size: 0.8rem;
-            padding-inline: 1rem;
-        }
-        
-        @media screen and (max-width: 670px) {
-            .p-footer {
-              display: none;
-            }
-            .footer{
-                justify-content: center;
-            }
-            .form{
-                margin-inline: 1rem;
-            }
-            .quienes-somos1{
-                margin-inline: 1rem;
-                padding-inline: 1rem;
-            }
-        }

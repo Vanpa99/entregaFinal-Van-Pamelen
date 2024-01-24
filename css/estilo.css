@@ -46,61 +46,60 @@ body {
   color: rgb(250, 163, 47);
 }
 
-/*GENERAL*/
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-}
-
-body {
-  margin-top: 60px;
-  margin-bottom: 60px;
+.footer {
   display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
-
-.navbar {
-  padding: 0;
-}
-
-.navbar-nav {
-  text-align: center;
-}
-
-.nav-link {
-  color: rgb(250, 163, 47);
-  font-weight: 500;
-}
-
-.nav-link:hover {
-  text-decoration: underline;
-  color: rgb(250, 163, 47);
-}
-
-.container-fluid {
+  justify-content: space-between;
   background-color: rgb(118, 52, 26);
+  width: 100%;
+  margin-top: auto;
+  position: fixed;
+  bottom: 0;
 }
-
-.navbar-brand {
-  padding-bottom: 0;
+.footer .p-footer {
+  display: flex;
+  align-items: center;
+  color: rgb(250, 163, 47);
+  font-style: italic;
+  font-size: 0.8rem;
+  padding-inline: 1rem;
 }
-
-.navbar-collapse {
-  justify-content: flex-end;
-}
-
-.logo {
+.footer .logo-footer .logo {
   width: 200px;
   height: auto;
 }
 
-p {
-  margin: 0;
-} */
-
+@media screen and (max-width: 992px) {
+  .quienes-somos1 > .div-text {
+    flex: 1;
+  }
+  .div-img {
+    display: none;
+  }
+}
+@media screen and (max-width: 670px) {
+  .footer {
+    justify-content: center;
+  }
+  .footer .p-footer {
+    display: none;
+  }
+  .main-contacto .form {
+    margin-inline: 1rem;
+  }
+  .main-quienes-somos .quienes-somos1 {
+    margin-inline: 1rem;
+    padding-inline: 1rem;
+  }
+  .main-que-hacemos .que-hacemos-texto {
+    margin-inline: 1rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .main-que-hacemos .que-hacemos-texto .p-que-hacemos {
+    display: none;
+  }
+}
+/*GENERAL*/
 /* INICIO */
 .body-inicio {
   background-image: url(../img/fondo-inicio.jpg);
@@ -160,14 +159,6 @@ p {
   gap: 3rem;
 }
 
-@media screen and (max-width: 992px) {
-  .quienes-somos1 > .div-text {
-    flex: 1;
-  }
-  .div-img {
-    display: none;
-  }
-}
 .quienes-somos1 {
   display: flex;
   background-color: rgba(255, 255, 255, 0.573);
@@ -213,7 +204,7 @@ p {
   background-color: rgba(255, 255, 255, 0.573);
   padding: 2rem;
   margin: 2rem;
-  margin-inline: 20rem;
+  margin-inline: 2rem;
   font-size: 1.2rem;
 }
 
@@ -230,16 +221,6 @@ p {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 1024px) {
-  .que-hacemos-texto {
-    margin-inline: 2rem;
-  }
-}
-@media screen and (max-width: 425px) {
-  .p-que-hacemos {
-    display: none;
-  }
-}
 /* PRODUCTOS */
 .body-productos {
   height: 100vh;
@@ -317,45 +298,4 @@ p {
 .input-textarea {
   min-width: 100%;
   padding: 0.5rem;
-}
-
-/* FOOTER */
-.footer {
-  display: flex;
-  justify-content: space-between;
-  background-color: rgb(118, 52, 26);
-  width: 100%;
-  margin-top: auto;
-  position: fixed;
-  bottom: 0;
-}
-
-.logo {
-    width: 200px;
-    height: auto;
-  }
-
-.p-footer {
-  display: flex;
-  align-items: center;
-  color: rgb(250, 163, 47);
-  font-style: italic;
-  font-size: 0.8rem;
-  padding-inline: 1rem;
-}
-
-@media screen and (max-width: 670px) {
-  .p-footer {
-    display: none;
-  }
-  .footer {
-    justify-content: center;
-  }
-  .form {
-    margin-inline: 1rem;
-  }
-  .quienes-somos1 {
-    margin-inline: 1rem;
-    padding-inline: 1rem;
-  }
 }/*# sourceMappingURL=estilo.css.map */
