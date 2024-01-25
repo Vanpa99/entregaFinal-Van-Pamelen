@@ -165,6 +165,7 @@ body {
 .body-productos .main-productos .container .row {
   gap: 2rem;
   justify-content: center;
+  margin-bottom: 5rem;
 }
 .body-productos .main-productos .container .row .card {
   width: 18rem;
