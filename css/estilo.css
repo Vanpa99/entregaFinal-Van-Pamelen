@@ -30,6 +30,7 @@ body {
 .navbar .container-fluid .navbar-brand .logo {
   width: 200px;
   height: auto;
+  animation: shake-top 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.2s both;
 }
 .navbar .container-fluid .navbar-collapse {
   justify-content: flex-end;
@@ -43,7 +44,8 @@ body {
 }
 .navbar .container-fluid .navbar-collapse .navbar-nav .nav-link:hover {
   text-decoration: underline;
-  color: rgb(250, 163, 47);
+  background-color: rgba(250, 162, 47, 0.252);
+  transition: background-color 0.7s;
 }
 
 .body-inicio {
@@ -168,6 +170,9 @@ body {
   width: 18rem;
   background-color: rgba(255, 255, 255, 0.573);
 }
+.body-productos .main-productos .container .row .card:hover {
+  animation: pulsate-fwd 0.5s ease-in-out both;
+}
 .body-productos .main-productos .container .row .card .card-img-top {
   border-radius: 5px;
 }
@@ -229,7 +234,17 @@ body {
   width: 200px;
   height: auto;
 }
-
+@keyframes pulsate-fwd {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 @media screen and (max-width: 992px) {
   .quienes-somos1 > .div-text {
     flex: 1;

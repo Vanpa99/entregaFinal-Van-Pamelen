@@ -11,6 +11,8 @@
             .logo{
                 width: 200px;
                 height: auto;
+                -webkit-animation: shake-top 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.2s both;
+                        animation: shake-top 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) 0.2s both;
             }
         }
     
@@ -26,11 +28,10 @@
 
                     &:hover{
                         text-decoration: underline;
-                        color: rgb(250, 163, 47);  
+                        background-color: rgba(250, 162, 47, 0.252);
+                        transition: background-color 0.7s;
                     }
                 }
-
-                 
             }
         }    
     }
