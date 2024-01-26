@@ -1,16 +1,11 @@
 .body-productos{
-    height: 100vh;
     background-image: url(../img/productos.jpg);
     background-size: cover; 
     background-position: center;
-    margin-top: 60px;
 
     .main-productos{
-        min-height: 100vh;
-
+        margin-top: 120px;
         .container{
-            margin-top: 2rem;
-
             .row{
                 gap: 2rem;
                 justify-content: center;

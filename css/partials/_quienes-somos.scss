@@ -1,16 +1,15 @@
 .body-quienes-somos{
     height: 100vh;
     background-image: url(../img/fondo-quienes-somos.jpg);
-    margin-top: 60px;
     background-size: cover; 
     background-position: center;
 
     .main-quienes-somos{
-        height: 100%;
         display: flex;
         justify-content: center;
         flex-direction: column;
         gap: 3rem;
+        margin-top: 120px;
 
         .quienes-somos1 {
             display: flex;

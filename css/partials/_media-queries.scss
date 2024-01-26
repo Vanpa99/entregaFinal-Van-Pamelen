@@ -24,15 +24,13 @@
             }
         }
     }
-    .main-quienes-somos{
-        .quienes-somos1{
-            margin-inline: 1rem;
-            padding-inline: 1rem;
-        }
-    }
-    .main-que-hacemos{
-        .que-hacemos-texto{
-            margin-inline: 1rem;
+    .body-quienes-somos{
+        .main-quienes-somos{
+            .quienes-somos1{
+                margin-inline: 1rem;
+                padding: 1rem;
+                gap: 1rem;
+            }
         }
     }
 }
