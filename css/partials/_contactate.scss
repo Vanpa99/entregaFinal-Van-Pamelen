@@ -2,13 +2,15 @@
     background-image: url(../img/fondo-contacto.webp);
     background-size: cover; 
     background-position: center;
-    margin-top: 60px;
+    height: 100vh;
 
     .main-contacto{
+        margin-top: 60px;
+
         .form{
             padding: 2.5rem;
             border: solid black;
-            margin-inline: 5rem;
+            margin-inline: 25rem;
             background-color: rgba(255, 255, 255, 0.573);
             margin-top: 60px;
 

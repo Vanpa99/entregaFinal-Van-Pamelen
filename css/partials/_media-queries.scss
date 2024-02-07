@@ -1,3 +1,19 @@
+@media screen and (max-width: 1024px) {
+    .body-contacto{
+        .main-contacto{
+            .form{
+                margin-inline: 5rem;
+            }
+        }
+    }
+    .body-que-hacemos{
+        .main-que-hacemos{
+            .que-hacemos-texto{
+                margin-inline: 1rem;
+            }
+        }
+    }
+}
 
 
 @media screen and (max-width: 992px) {
@@ -17,19 +33,21 @@
             display: none;
         }
     }
-    .body-contacto{
-        .main-contacto{
-            .form{
-                margin-inline: 1rem;
-            }
-        }
-    }
+
     .body-quienes-somos{
         .main-quienes-somos{
             .quienes-somos1{
                 margin-inline: 1rem;
                 padding: 1rem;
                 gap: 1rem;
+            }
+        }
+    }
+
+    .body-contacto{
+        .main-contacto{
+            .form{
+                margin-inline: 1rem;
             }
         }
     }
@@ -41,6 +59,15 @@
             .p-que-hacemos{
                 display: none;
             }
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .body-quienes-somos{
+        .main-quienes-somos{
+        margin-top: 5rem;
+        margin-bottom: 1.5rem;
         }
     }
 }

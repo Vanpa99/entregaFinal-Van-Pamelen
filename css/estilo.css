@@ -48,6 +48,7 @@ body {
 .body-inicio {
   background-image: url(../img/fondo-inicio.jpg);
   background-size: cover;
+  margin-top: -56px;
 }
 .body-inicio .main-inicio {
   height: 100vh;
@@ -82,17 +83,17 @@ body {
 }
 
 .body-quienes-somos {
-  height: 100vh;
   background-image: url(../img/fondo-quienes-somos.jpg);
   background-size: cover;
   background-position: center;
 }
 .body-quienes-somos .main-quienes-somos {
+  height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
   gap: 3rem;
-  margin-top: 120px;
+  margin-bottom: -3.5rem;
 }
 .body-quienes-somos .main-quienes-somos .quienes-somos1 {
   display: flex;
@@ -116,7 +117,12 @@ body {
   flex: 1;
 }
 .body-quienes-somos .main-quienes-somos .quienes-somos1 > .div-img .quienes-somos-img1 {
-  width: 100%;
+  width: 70%;
+  margin-left: 62px;
+}
+.body-quienes-somos .main-quienes-somos .quienes-somos1 > .div-img .quienes-somos-img2 {
+  width: 80%;
+  margin-left: 40px;
 }
 
 .body-que-hacemos {
@@ -131,7 +137,7 @@ body {
 .body-que-hacemos .main-que-hacemos .que-hacemos-texto {
   background-color: rgba(255, 255, 255, 0.573);
   padding: 2rem;
-  margin-inline: 2rem;
+  margin-inline: 15rem;
   font-size: 1.2rem;
 }
 .body-que-hacemos .main-que-hacemos .que-hacemos-texto > h2 {
@@ -149,6 +155,7 @@ body {
   background-image: url(../img/productos.jpg);
   background-size: cover;
   background-position: center;
+  height: 100vh;
 }
 .body-productos .main-productos {
   margin-top: 120px;
@@ -173,12 +180,15 @@ body {
   background-image: url(../img/fondo-contacto.webp);
   background-size: cover;
   background-position: center;
+  height: 100vh;
+}
+.body-contacto .main-contacto {
   margin-top: 60px;
 }
 .body-contacto .main-contacto .form {
   padding: 2.5rem;
   border: solid black;
-  margin-inline: 5rem;
+  margin-inline: 25rem;
   background-color: rgba(255, 255, 255, 0.573);
   margin-top: 60px;
 }
@@ -210,8 +220,7 @@ body {
   background-color: rgb(118, 52, 26);
   width: 100%;
   margin-top: auto;
-  position: fixed;
-  bottom: 0;
+  position: relative;
 }
 .footer .p-footer {
   display: flex;
@@ -236,6 +245,14 @@ body {
     transform: scale(1);
   }
 }
+@media screen and (max-width: 1024px) {
+  .body-contacto .main-contacto .form {
+    margin-inline: 5rem;
+  }
+  .body-que-hacemos .main-que-hacemos .que-hacemos-texto {
+    margin-inline: 1rem;
+  }
+}
 @media screen and (max-width: 992px) {
   .quienes-somos1 > .div-text {
     flex: 1;
@@ -251,18 +268,24 @@ body {
   .footer .p-footer {
     display: none;
   }
-  .body-contacto .main-contacto .form {
-    margin-inline: 1rem;
-  }
   .body-quienes-somos .main-quienes-somos .quienes-somos1 {
     margin-inline: 1rem;
     padding: 1rem;
     gap: 1rem;
   }
+  .body-contacto .main-contacto .form {
+    margin-inline: 1rem;
+  }
 }
 @media screen and (max-width: 425px) {
   .main-que-hacemos .que-hacemos-texto .p-que-hacemos {
     display: none;
+  }
+}
+@media screen and (max-width: 320px) {
+  .body-quienes-somos .main-quienes-somos {
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
   }
 }
 /*GENERAL*/
