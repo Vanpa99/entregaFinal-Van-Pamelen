@@ -39,6 +39,16 @@
             .submit{
                 display: flex;
                 justify-content: center;
+                    .boton{
+                        display: inline-block;
+                        padding: 8px 16px;
+                        // margin-top: 10px;
+                        background-color: $mainColor;
+                        color: $tertiaryColor;
+                        text-decoration: none;
+                        border-radius: 5px;
+                        border: none;
+                    }
             }
         }
     }

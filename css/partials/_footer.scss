@@ -1,7 +1,7 @@
 .footer{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(118, 52, 26);
+    background-color: $mainColor;
     width: 100%;
     margin-top: auto;
     position: relative;
@@ -9,7 +9,7 @@
     .p-footer{
         display: flex;
         align-items: center;
-        color: rgb(250, 163, 47);
+        color: $tertiaryColor;
         font-style: italic;
         font-size: 0.8rem;
         padding-inline: 1rem;

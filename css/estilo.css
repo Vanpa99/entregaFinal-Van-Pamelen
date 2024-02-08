@@ -51,10 +51,10 @@ body {
   margin-top: -56px;
 }
 .body-inicio .main-inicio {
-  height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  height: 100vh;
 }
 .body-inicio .main-inicio .zona-cartel .cartel {
   width: 300px;
@@ -76,8 +76,8 @@ body {
   display: inline-block;
   padding: 8px 16px;
   margin-top: 10px;
-  background-color: #4CAF50;
-  color: #fff;
+  background-color: rgb(118, 52, 26);
+  color: rgb(250, 163, 47);
   text-decoration: none;
   border-radius: 5px;
 }
@@ -175,6 +175,15 @@ body {
 .body-productos .main-productos .container .row .card .card-img-top {
   border-radius: 5px;
 }
+.body-productos .main-productos .container .row .card .btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: rgb(118, 52, 26);
+  color: rgb(250, 163, 47);
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+}
 
 .body-contacto {
   background-image: url(../img/fondo-contacto.webp);
@@ -212,6 +221,15 @@ body {
 .body-contacto .main-contacto .form .submit {
   display: flex;
   justify-content: center;
+}
+.body-contacto .main-contacto .form .submit .boton {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: rgb(118, 52, 26);
+  color: rgb(250, 163, 47);
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
 }
 
 .footer {
@@ -282,10 +300,10 @@ body {
     display: none;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   .body-quienes-somos .main-quienes-somos {
-    margin-top: 5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
   }
 }
 /*GENERAL*/
